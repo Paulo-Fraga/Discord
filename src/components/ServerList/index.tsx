@@ -1,13 +1,15 @@
 import React from 'react';
+
+import ServerButton from '../ServerButton'
+
 import{ Conteiner, Separator} from './styles';
-import ServerButton from '../ServerButton/index';
+
 const ServerList: React.FC = () =>{
     
     return(
         <Conteiner>
 
             <ServerButton isHome/>
-
             <Separator />
 
             <ServerButton />

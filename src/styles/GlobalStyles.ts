@@ -11,11 +11,11 @@ export default createGlobalStyle`
 *,button,input{
     border: 0;
     outline:0;
-
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 html,body,:root{
-    height:100%
+    height:100%;
 }
 :root {
     --primary: #36393f;

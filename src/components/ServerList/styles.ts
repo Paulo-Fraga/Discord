@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 
 export const Conteiner = styled.div`
-    grid-area: SL;
     display:flex;
+    grid-area: CI;
     flex-direction:column;
-    align-items: center;
 
-    background: var(--tertiary);
+    align-items: center;
+    justify-content:center;
+
+    background-color: 'var(--tertiary)';
     padding: 11px 0px;
 
     max-height:100vh;
-    overflow-y: scroll
+    overflow-y: scroll;
     
     ::--webkit-scrollbar{
     display:none;
@@ -19,7 +21,7 @@ export const Conteiner = styled.div`
 `;
 export const Separator = styled.div`
     width: 32px;
-    border-bottom: 2px solid var(--quarternary)
+    border-bottom: 2px solid 'var(--quarternary)';
 
     margin-bottom: 8px;
 
